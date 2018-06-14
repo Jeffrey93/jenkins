@@ -15,7 +15,7 @@ pipeline{
 	stages{
 		stage('Actualizar fuentes Nodo Windows') {
 		 	steps{
-		 		git url: 'https://github.com/sflorezr/SincronizacionAD.git', credentialsId: 'sflorezr', branch: 'master'
+		 		git url: 'https://github.com/Jeffrey93/jenkins.git', credentialsId: 'sflorezr', branch: 'ychaverra'
 			}
 		}
 
